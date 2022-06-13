@@ -1,4 +1,4 @@
-rom guizero import App, Text, PushButton
+from guizero import App, Text, PushButton
 from random import choice
 
 app = App("TOP SECRET")
