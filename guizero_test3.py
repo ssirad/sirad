@@ -1,7 +1,7 @@
 from guizero import App, Text, PushButton
 from random import choice
 
-app = App("TOP SECRET")
+app = App("TOP SECRET MARCO")
 title = Text(app, "Push the red button to find out your spy name")
 
 nomi = ["leone", "Aristotele", "Dariole", "Helen", "Jiji", "Billy"]
