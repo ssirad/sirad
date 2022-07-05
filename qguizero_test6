@@ -9,7 +9,6 @@ def clear_board():
                  [None, None, None]]
     for x in range(3):
         for y in range(3):
-            print(x, y)
             button = PushButton(
                  board, text="", grid=[x, y], width=3, command=choose_square, args=[x, y]
 
@@ -68,7 +67,7 @@ def check_win():
         winner = board_squares[0][2]
 
     if winner is not None:
-        massage.value = winner.text + "wins!"
+        massage.value = winner.text + " wins!"
     elif moves_taken() == 9:
         massage.value = "It's a draw"
 
