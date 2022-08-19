@@ -1,0 +1,9 @@
+from guizero import App, TextBox, Combo, Text
+
+app = App()
+spazio = Text(app, " ")
+input_testo = TextBox(app)
+spazio = Text(app, " ")
+combo = Combo(app, options=["Soggiorno", "Sirad", "Keynan", "Studio"])
+
+app.display()
