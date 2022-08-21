@@ -1,6 +1,6 @@
 import requests
 import urllib.parse
-from guizero import App, TextBox, PushButton, Combo, Text
+from guizero import App, TextBox, PushButton, Combo
 
 app = App("Comandante Sonos")
 
